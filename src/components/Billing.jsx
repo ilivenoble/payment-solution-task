@@ -148,6 +148,7 @@ function handleSubmit(e) {
               className="mt-2 mb-3 py-2 pl-3 rounded border border-slate-600"
               id="cvv"
               type="number"
+              name='cvv'
               value={formData.cvv}
               placeholder="123"
               onChange={handleChange}
