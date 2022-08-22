@@ -148,7 +148,7 @@ function handleSubmit(e) {
               className="mt-2 mb-3 py-2 pl-3 rounded border border-slate-600"
               id="cvv"
               type="number"
-              name='cvv'
+              name="cvv"
               value={formData.cvv}
               placeholder="123"
               onChange={handleChange}
@@ -163,9 +163,9 @@ function handleSubmit(e) {
           >
             Next
           </button>
-          <button className="text-blue-900 font-bold" type="reset">
+          <Link to="/" className="text-blue-900 font-bold"> 
             Cancel Payment
-          </button>
+          </Link>
         </div>
       </form>
     </div>

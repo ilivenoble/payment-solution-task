@@ -179,9 +179,9 @@ function handleSubmit(e){
           >
             Next
           </button>
-          <button className="text-blue-900 font-bold" type="reset">
+          <Link to="/" className="text-blue-900 font-bold">
             Cancel Payment
-          </button>
+          </Link>
         </div>
       </form>
     </div>
